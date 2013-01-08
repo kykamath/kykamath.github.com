@@ -1,0 +1,62 @@
+\documentclass[12pt, onecolumn]{IEEEtran}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+
+\begin{document}
+% \title{Daily readings -  10 September 2009}
+% \author{\IEEEauthorblockN{Krishna Kamath}\\
+% \IEEEauthorblockA{
+% kykamath@cse.tamu.edu}}
+% \maketitle
+
+\textbf{\large \begin{center}Paper Summary
+\end{center} }
+\begin{center}Krishna Y.Kamath (UIN: 119001316)\\
+kykamath@cs.tamu.edu\\
+Date: $21^{st}$ April, 2011
+\end{center}
+        
+\section{Paper Citation Information}
+\begin{itemize}
+  \item A user-centered design of a personal digital library for music exploration \cite{Bainbridge:2010:UDP}
+  \item Authors: Bainbridge, David and Novak, Brook J. and Cunningham, Sally Jo
+  \item Publication details: JCDL 2010, Proceedings of the 10th annual joint conference on Digital libraries
+\end{itemize}
+
+\section{Summary}
+
+\subsection{Problem Statement}
+Musicians come up with with ideas of songs in variety of settings. This paper tries to understand the support musicians require in cases where they use text and audio for composition and arrangement instead of the formal music notation. In, particular the authors are interested in determining the requirements for a software to assist musicians in these times. 
+\\
+\subsection{Proposed Solution}
+To build their solution they start of with a diary study to help establish: i) when, where, and in what settings musical ideas occur, and ii) the functional capabilities required for the software.  In a dairy study, participants keep a record of occurrences of the experience under study which are then shared with the researcher. The sharing helps the researcher understand the usage of the system. The primary advantage of the diary technique is that the diary—when ﬁlled in conscientiously by the participant—provides a more faithful description of the activity than may be obtained by retrospective methods such as post-hoc interviews. The users were also given an audio recorder along with the diary. Using the technique the authors were able to collect 60 ideas. 31 on audio and 29 were on the diary. The audio records were of length 70 seconds an average and all the recording expect 1 involved guitar. Though most users felt audio recorder and the notebook was sufficient, most users had 2 requirements: Ability to overdub and ability to capture picture or audio of their inspiration. 
+
+Based on interviews and the information collected using notebooks and audio recordings the authors decide to support a bricolage style of music composition. In this software the user is allowed to jot down small fragments (musical ideas), quickly. He can also shift and re-arrange them to build complete music pieces. 
+
+\subsection{Results}
+To evaluate their software, Apollo, they compared it with Garage band. 11 participants who had experience in music recording were selected for this study. These participants were well versed in using computer as well. The participants were given a scenario where they discover a new tune and they have to use the software to record their music. All but one user found apollo to be more useful than garageband. The found it so because, apollo unile garage band hand capabilities to take both text and audio recordings in the same place with opening 2 applications. The second task they were given is to continue working on an existing idea. Many users didn't like the apatioal feature provided by the application. The third task thee were asked to use the search feature of the application. Most users preferred apollo's searching mechanism better than that of filesystem's.
+
+\section{Critique}
+\subsection{Strenghts}
+The problem of developing a tool for musicians to develop idea in an ad-hoc way is very interesting. They identify the requirements of a such a tool carefully, using interviews and notebooks. Hence, the problem and the techniques used to solve the problem are relevant.
+\\
+The results show that the users found the tool very helpful. Some had problems with some of its features, but overall they found it useful. It shows the their solution met its intended goal.
+
+\subsection{Weakness}
+The paper could improve in their implementation details. They don't explain
+the details of their implementation, like the tools they used, the architecture
+of the solution etc. Giving those details would have made their solution much
+more clear.
+\\
+\section{Future work}
+They should conduct a more through user analysis to understand the tool better. They could also think of migrating the tool to a smaller device like an iphone or ipad and see how it impacts the users.
+\\
+\bibliographystyle{IEEEtran}
+\bibliography{675}
+ 
+\end{document}

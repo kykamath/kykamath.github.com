@@ -1,0 +1,40 @@
+/* General properties */
+body {
+    background: #ffffff;
+    color: #000000;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", sans-serif;
+    line-height: 1.6em;
+    font-size: 10pt; 
+    margin-left:300px;
+    margin-right:300px; 
+    border-left: 3px solid #ccc;
+    padding-left:10px;
+}
+
+img.profile {
+    border: 2px solid #ccc;
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    border-bottom: 2px solid #ccc;
+    padding-top:5px;
+}
+
+.heading {
+    color: #8f138b;
+    font-size: 110%;
+}
+
+a { 
+	text-decoration: underline;
+    color: #3e7510; 
+}
+
+.top-heading {
+    font-size: 200%;
+    border-bottom: 2px solid #ccc;
+}

@@ -1,0 +1,122 @@
+\documentclass[12pt, onecolumn]{IEEEtran}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+
+\begin{document}
+% \title{Daily readings -  10 September 2009}
+% \author{\IEEEauthorblockN{Krishna Kamath}\\
+% \IEEEauthorblockA{
+% kykamath@cse.tamu.edu}}
+% \maketitle
+
+\textbf{\large \begin{center}Paper Summary
+\end{center} }
+\begin{center}Krishna Y.Kamath (UIN: 119001316)\\
+kykamath@cs.tamu.edu\\
+Date: $21^{st}$ April, 2011
+\end{center}
+        
+\section{Paper Citation Information}
+\begin{itemize}
+  \item Where did the researchers go?: supporting social navigation at a large
+  academic \cite{Farzan:2008:go}
+  \item Authors: Rosta Farzan and Peter Brusilovsky
+  \item Publication details: HT ’08: Proceedings of the nineteenth ACM
+  conference on Hypertext and hypermedia. New York, NY, USA: ACM, 2008, pp.
+  203, 212
+
+\end{itemize}
+
+\section{Summary}
+
+\subsection{Problem Statement}
+The paper tries to deal with the problem of information overload. A common
+approach taken when there is problem of information overload, is to follow some
+other user who we trust and who has gone through the information path. The
+problem that paper deals with is similar to this. It tries to understand the role
+played by social navigation and social search technologies in the context of
+conference attendance planning. Academic conference generally have a multiple
+parallel sessions with large number of papers in each session. Hence, deciding
+which paper to see is a difficult decision. The paper tries to use to collective
+knowledge of the community and social navigation techniques to solve this
+problem. They develop an application called Conference Navigator using these
+techniques to solve the problem of information overload in conferences.
+
+\subsection{Proposed Solution}
+Traditionally there have been some problems observed with collecting feedback
+from users. The application depends on collecting information from the user.
+Hence, it deals with these problems as well. The first problem is the amount of
+time users have to spend giving the actual feedback. This action must be
+explicitly performed and hence effects with the natural order of their
+activities. To solve this problem the application tries to introduce activities
+for users that provide reliable indication of users interest. The second
+problem faced by this process in the issue of privacy of feedback given by the
+users. This issue is resolved by tracking the feedback at a community level
+rather that at the individual level. 
+
+To access the system the user first has to select a community. If he doesn't find
+a suitable community he can create another new community. The application has 2
+modules. A schedule browser, that any user can use. It provides a listing of all
+the tracks and papers. A user can browse through the conference and decide on
+the conference he wants to attend. Another module is the Personal schedule
+planner module. This can be used by only registered users. This can be used to
+schedule the papers one is  interested in attending. While browsing a user can
+perform 3 functions. (i). Simple visiting: In this the user just browses
+through all the tracks and the papers. (ii). Annotating: In this function a
+user can annotate the papers he is interested in with tags. (iii). Scheduling:
+In this function a user can add a paper to his schedule. The application uses
+scheduling and annotating to build the ``wisdom'' of the communities. This can
+then be used to make decisions about which conferences to attend.
+
+Social navigation support is provided by augmenting links to papers presented
+to user during searching and browsing. The returned articles are marked with
+icons that show the popularity of the article within the community. It uses
+information like, the number of people from your community that are going to
+attend the paper, their annotations etc.
+
+\subsection{Results}
+The application was evaluated in the E-Learn 2007 conference series organized by
+AACE. They evaluated the system on a limited number of users and noticed that the
+users who used the system, took decisions to attend a particular paper or not
+depending on the annotations that were returned next to the article. The
+conference was divided into 15 parallel tracks with a total of 150 papers. The
+users were asked to use the system by distributing flyers. They were also give a
+questionnaire to obtain feedback on the utility of the system. They then
+performed application log analysis to test its performance. Based on their
+investigation they determined that using the application the users were able to
+identify useful papers based on the recommendations provided by the system.
+
+\section{Critique}
+\subsection{Strenghts}
+The problem of solving the information overload at conferences is interesting.
+The problem is important because, such a solution can be used in solving other
+information overload scenarios. The paper does a good work of identifying,
+potential problem such a solution may face and gives satisfactory solutions to
+overcome those problems. The paper is organized well. They first identify the
+problems, give solutions to these problems and then give details about the
+implementations.
+
+\subsection{Weakness}
+One of the problems with the paper is that it is too specific to the problem of
+information overload in conferences and not general to the problem of information
+overload. It also does not tell us if their approach can be used in any other
+scenario other that this. Also no details about the scalability and performance
+of the application is given.
+
+\section{Future work}
+The paper could be useful if they can suggest ways in which their current work
+can be used in other general cases of information overload. They also can imporve
+the paper by providing the more details of their implementation. They don't
+explain the details of their implementation, like the tools they used, the
+architecture of the solution etc. Giving those details would have made their
+solution much more clear.
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,675}
+ 
+\end{document}
