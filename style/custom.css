@@ -6,7 +6,7 @@ body {
     line-height: 1.6em;
     font-size: 10pt; 
     margin-left:300px;
-    margin-right:300px; 
+    margin-right:300px;
     border-left: 3px solid #ccc;
     padding-left:10px;
 }
@@ -21,9 +21,20 @@ img.profile {
     height: 2.53in;
 }
 
+img.external_link {
+    /*border: 2px solid #ccc;*/
+    float: right;
+    margin: 0 0 10px 10px;
+    /*width: 200px;
+    height: 200px;*/
+    width: 0.40in;
+    height: 0.40in;
+}
+
 h1 {
     border-bottom: 2px solid #ccc;
     padding-top:5px;
+    padding-bottom:15px;
 }
 
 h4 {
