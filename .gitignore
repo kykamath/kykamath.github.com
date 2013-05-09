@@ -29,7 +29,7 @@
 *.bbl
 *.aux
 *.blg
-*.pdf
+#*.pdf
 *.dvi
 
 # OS generated files #
